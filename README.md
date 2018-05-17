@@ -6,4 +6,5 @@ Each code file contains the first line as comment with the link of the problem. 
 
 ```python
 # This file is related to https://www.hackerrank.com/challenges/s10-basic-statistics/problem
+import csv
 ```
