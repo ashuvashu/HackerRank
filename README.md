@@ -8,3 +8,4 @@ Each code file contains the first line as comment with the link of the problem. 
 # This file is related to https://www.hackerrank.com/challenges/s10-basic-statistics/problem
 import csv
 ```
+Most problems are easy and have smaller files so I will push smaller code.
