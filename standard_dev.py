@@ -1,3 +1,7 @@
+'''
+This is silution for the problem at
+https://www.hackerrank.com/challenges/s10-standard-deviation/problem
+'''
 import math
 c = int(input())
 x = [int(x) for x in input().split()]
