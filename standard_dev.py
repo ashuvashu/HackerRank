@@ -1,5 +1,5 @@
 '''
-This is silution for the problem at
+This is solution for the problem at
 https://www.hackerrank.com/challenges/s10-standard-deviation/problem
 '''
 import math

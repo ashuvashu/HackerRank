@@ -1,3 +1,7 @@
+'''
+This is solution for problem at
+https://www.hackerrank.com/challenges/s10-interquartile-range/problem
+'''
 import statistics as stats
 import math
 
