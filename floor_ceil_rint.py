@@ -1,9 +1,12 @@
 import numpy
-#Next Line is tricky part else is easy
-numpy.set_printoptions(sign=' ')
 
-in_array = [float(x) for x in input().split(' ')]
-num_array = numpy.array(in_array)
-print(numpy.floor(num_array))
-print(numpy.ceil(num_array))
-print(numpy.rint(num_array))
+row_num = [int(x) for x in input().split(' ')]
+in_array = []
+for i in range(0, row_num[0]):
+    in_array.append([int(x) for x in input().split(' ')])
+
+numpy_array = numpy.array(in_array)
+numpy.set_printoptions(sign=' ')
+print(numpy.mean(numpy_array, axis=1))
+print(numpy.var(numpy_array, axis=0))
+print(numpy.std(numpy_array))
